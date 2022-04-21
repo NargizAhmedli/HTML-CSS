@@ -1,0 +1,47 @@
+div {
+    background-color: white;
+    padding: 10px;
+    width: 20%;
+    padding: 20px;
+    margin: auto;
+    }
+    
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          background-color: purple;
+        
+        }
+
+        div {
+            background-color: white;
+            padding: 10px;
+            width: 20%;
+        }
+
+
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <h2>Natural Beauty. Which Is Grateful In Bangladesh.</h2>
+            
+            <img src="paris.jpg" alt="Paris" width="300" height="300">
+            
+            <p>12th December, 2022</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget euismod
+                 neque. Aenean malesuada mi sed posuere auctor. Praesent eleifend massa nec elementum fringilla. Mauris quis pellentesque arcu
+                 , a tincidunt metus. Fusce vulputate sollicitudin quam ac pellentesque. Sed vitae viverra neque. Donec a nibh et massa pharetra tempor. Curabitur luctus elit egestas, accumsan dui vel, luctus dui. Suspendisse maximus est non congue viverra. Aliquam interdum, massa at semper dapibus, nisl ante lobortis felis, at pharetra ex nisl sit amet ante. Etiam rutrum dapibus enim, nec ultricies nisi faucibus vitae. Ut eget lectus ullamcorper, luctus diam vitae, gravida leo. Mauris et pretium magna.</p>
+        </div>
+</body>
+</html>
