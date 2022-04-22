@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+<br>
+<br>
+
+
+<form action="/action_page.php" method = "post">
+  <label for="fname">Ad:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Soyad:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="pwd">Sifre:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+
+  <br>
+  <input type="radio" id="html" name="gender">
+  <label for="html">K</label><br>
+  <input type="radio" id="css" name="gender">
+  <label for="css">Q</label><br>
+  <br>
+
+  <input type="checkbox" name="check">Orta<br>
+  
+  <input type="checkbox" name="check">Bakalavr<br>
+  
+  <input type="checkbox" name="check">Magistr<br>
+  
+  <input type="checkbox" name="check">Doktor<br><br>
+
+  <label for="text">Yas:</label><br>
+  <input type="text" id="age" name="age"><br><br>
+  <label for="text">Boy:</label><br>
+  <input type="text" id="weight" name="weight"><br><br>
+  <label for="text">Ceki:</label><br>
+  <input type="text" id="size" name="size"><br><br>
+
+  <input type="submit" value="Tesdiqle">
+  
+  
+
+
+
+</body>
+</html>
