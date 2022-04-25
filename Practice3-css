@@ -1,0 +1,42 @@
+.Title
+{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+  
+}
+.Title h1{
+    text-align: center;
+
+}
+.Title p{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    
+}
+.Title h1::before
+{
+content: "";
+position: absolute;
+width: 150px;
+height: 2px;
+background-color: rgb(71, 134, 71);
+top: 40px;
+left: 430px;
+border-radius: 20px;
+
+}
+.Title h1::after
+{
+content: "";
+position: absolute;
+width: 50px;
+height: 4px;
+background-color: rgb(31, 75, 31);
+top: 39.2px;
+left: 480px;
+z-index: 2;
+border-radius: 20px;
+
+}
