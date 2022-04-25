@@ -1,0 +1,30 @@
+.Carousel{
+
+    background-color: grey;
+    
+    background-color: grey;
+    border: 2px solid grey;
+}
+
+.Carousel ul li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid grey;
+    width: 60px;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: white    
+}
+body{
+    height: 3000px;
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+}
+
