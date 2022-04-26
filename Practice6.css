@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.nav-items ul{
+    display: flex;
+}
+
+.nav-items ul li{
+
+    list-style: none;
+    border: 1px solid grey;
+    padding-left: 30px;
+}
+
+li a{
+
+    transition: all 0.3s;
+    text-decoration: none;
+    color: white    
+    
+  
+}
+body{
+    height: 3000px;
+    background-color: rgba(22, 122, 97, 0.904);
+   
+}
+
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+
+.logo{
+    bottom: 0;
+    right: 0;
+    border: 10px solid grey;
+    border-radius: 10%;
+    background-color: grey;
+}
+
+Nav{
+    background-color: grey;
+}
+
+.logo a {
+        text-decoration: none;
+        color: white
+      
+}
+
+header nav .navbar .nav-items ul li a:hover{
+    color: rgba(22, 122, 97, 0.904);
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
