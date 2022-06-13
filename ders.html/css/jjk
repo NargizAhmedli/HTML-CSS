@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="/css/index.css"> -->
+    <title>Document</title>
+</head>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://commons.wikimedia.org/wiki/Category:BMW_G11");
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #066cb6;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .icon-bar {
+    width: 50%;
+    background-color: #066cb6;
+    overflow: auto;
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 8px 0;
+    color: white;
+    font-size: 36px;
+  }
+</style>
+<body>
+ <main> 
+<section>
+
+  <div class="custom-navbar" data-wow-duration="2s" role="navigation" id="header">
+      <div class="header">
+        <div class="container"> 
+          <div class="row-navlocation">
+            <div class="topnav">
+              <a class="active" href="#"><i class="fa-solid fa-clock"></i></a>
+              <a href="#news"> Mon - Sun: 8:00am - 6:00pm</a>
+               <a class="active" href="#"><i class="fa-solid fa-phone"></i></a>
+              <a href="#news"> +994 51 396 56 16</a>
+            </div>
+            </div>
+            <div class="icon-bar">
+              <a class="active" href="#"><i class="fa-brands fa-facebook-f"></i></a> 
+              <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+              <a href="#"><i class="fa-brands fa-instagram-square"></i></a> 
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+            <div class="col-lg-3">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img
+                      src="http://malikhassan.com/html/car-rental/html/images/logo.png"
+                      alt=""
+                    />
+                  </a>
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarNavAltMarkup"
+                      aria-controls="navbarNavAltMarkup"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#">Vehicles</a>
+                        <a
+                          class="nav-link disabled"
+                          href="#"
+                          tabindex="-1"
+                          aria-disabled="true"
+                          >Why</a
+                        >
+                        <a class="nav-link" href="#">Supportes</a>
+                        <a class="nav-link" href="#">Clients</a>
+                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#">Contact</a>
+                      </div>
+            </div>
+                </div>
+              </nav>
+        </div>
+      </div>
+    </div>
+</section>
+ </main>
+
+      <section id="background-photo">
+        <div class="photo">
+            <img src="https://commons.wikimedia.org/wiki/Category:BMW_G11" alt="">
+            <div class="slider-wrap photoWrp" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="photoTxt">
+                          <h1>Find Your Rent a Car</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+          </div>
+      </section>
+
+      <section id="Offers">
+        <div class="services" >
+            <div class="container">
+              <div class="title">
+                <h1>Our Best <span>Offers</span></h1>
+              </div>
+              <div class="offerTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a arcu eu justo euismod rutrum. Quisque id enim ac tortor malesuada vestibulum non quis turpis. Ut eget ornare arcu. Suspendisse velit mi, pulvinar sed mauris eget, efficitur tempor ex.</div>
+              <div class="row">
+                <div class="get-left col-lg-4">
+                  <ul>
+                    <li>
+                      <div class="carWrp">
+                        <div class="row">
+                          <div class="col-lg-2 col-2"> <span class="offer-icon"><i class="fa-solid fa-car"></i> </span> </div>
+                          <div class="col-lg-10 col-10">
+                            <div class="offer-details">
+                              <h3>Featured Luxury Cars</h3>
+                              <div class="divider-dotted"> </div>
+                            </div>
+                            <p> Lorem ipsum dolor sit amet, onsectetuer adipiscing elitcommodo ligula eget dolor. </p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="carWrp">
+                        <div class="row">
+                          <div class="col-lg-2 col-2"> <span class="offer-icon"><i class="fa-solid fa-bag-shopping"></i></span> </div>
+                          <div class="col-lg-10 col-10">
+                            <div class="offer-details">
+                              <h3>Insurance Included</h3>
+                              <div class="divider-dotted"> </div>
+                              <p> Lorem ipsum dolor sit amet, onsectetuer adipiscing elitcommodo ligula eget dolor. </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="carWrp">
+                        <div class="row">
+                          <div class="col-lg-2 col-2"> <span class="offer-icon"><i class="fa fa-binoculars" ></i></span> </div>
+                          <div class="col-lg-10 col-10">
+                            <div class="offer-details">
+                              <h3>Available 12 640 Cars</h3>
+                              <div class="divider-dotted"> </div>
+                              <p> Lorem ipsum dolor sit amet, onsectetuer adipiscing elitcommodo ligula eget dolor. </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 text-center car-center-pic">
+                  <div class="offerImg"><img src="/image/img2.png" alt=""></div>
+                </div>
+                <div class="get-left get-right text-right col-lg-4">
+                  <ul>
+                    <li>
+                      <div class="carWrp car_Wrp01">
+                        <div class="row">
+                          <div class="col-lg-2 col-2 pull-right"> <span class="offer-icon"><i class="fa fa-map-marker"></i></span> </div>
+                          <div class="col-lg-10 col-10">
+                            <div class="offer-details">
+                              <h3>Any Locations Rent</h3>
+                              <div class="divider-dotted"> </div>
+                              <p> Lorem ipsum dolor sit amet, onsectetuer adipiscing elitcommodo ligula eget dolor. </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="carWrp car_Wrp01">
+                        <div class="row">
+                          <div class="col-lg-2 col-2 pull-right"> <span class="offer-icon"><i class="fa fa-tint"></i></span> </div>
+                          <div class="col-lg-10 col-10">
+                            <div class="offer-details">
+                              <h3>Cleaning Included</h3>
+                              <div class="divider-dotted"> </div>
+                              <p> Lorem ipsum dolor sit amet, onsectetuer adipiscing elitcommodo ligula eget dolor. </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="carWrp car_Wrp01">
+                        <div class="row">
+                          <div class="col-lg-2 col-2 pull-right"> <span class="offer-icon"><i class="fa-solid fa-compact-disc"></i></span> </div>
+                          <div class="col-lg-10 col-10">
+                            <div class="offer-details">
+                              <h3>Online 24 / 7 Support</h3>
+                              <div class="divider-dotted"> </div>
+                              <p> Lorem ipsum dolor sit amet, onsectetuer adipiscing elitcommodo ligula eget dolor. </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+      <section id="Vehicle">
+        <div class="services-vehicle" >
+            <div class="container">
+                <div class="title">
+                  <h1>VEHICLE MODELS<span> FOR RENT</span></h1>
+                </div>
+               <div class="row">
+                <div class="get-left col-lg-3">
+                    <div class="tabs">
+                        <div class="row">
+                          <div class="col-lg-3">
+                            <div class="tab-button-outher">
+                              <ul id="tab-button">
+                                <li class="is-active"><a href="#" ><span>BMW </span> 3-SERIES</a></li>
+                                <li><a href="#" data-id=""><span>Audi</span> A1 S-LINE</a></li>
+                                <li><a href="#" data-id=""><span>Toyota</span> Camry</a></li>
+                                <li><a href="#" data-id=""><span>Mercedes-Benz</span> GLK</a></li>
+                                <li><a href="#" data-id=""><span>Subaru</span> Impreza</a></li>
+                                <li><a href="#" data-id=""><span>Toyota Corolla</span> 1.6 Elegant</a></li>
+                                <li><a href="#" data-id=""><span>Subaru</span> Impreza</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 text-center ">
+                      <div class="offerImg"><img src="/image/img3.jpg" alt=""></div>
+                </div>
+                <div class="get-right col-lg-3">
+                        <div class="tab-button-outher">
+                              <ul id="tab-button">
+                                <li class="is-active"><a href="#" ><span>$ 37.40 </span>Rent Per Day</a></li>
+                                <li><a href="#" data-id=""><span>Model</span> A1 S-LINE</a></li>
+                                <li><a href="#" data-id=""><span>Doors</span> Camry</a></li>
+                                <li><a href="#" data-id=""><span>Seats</span> GLK</a></li>
+                                <li><a href="#" data-id=""><span>Subaru</span> Impreza</a></li>
+                                <li><a href="#" data-id=""><span>Toyota Corolla</span> 1.6 Elegant</a></li>
+                                <li><a href="#" data-id=""><span>Subaru</span> Impreza</a></li>
+                              </ul>
+                      </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
